@@ -692,7 +692,7 @@
             <div class="photo-card">
                 <div class="photo-placeholder has-image" id="photo1">
                     <!-- Coloque o caminho da sua imagem aqui -->
-                    <img src="Sem título.jpeg" alt="">
+                    <img src="Sem título.jpeg" alt="Ana Laura">
                 </div>
                 <div class="photo-caption">Perfeita 💖</div>
             </div>
@@ -700,14 +700,14 @@
             <div class="photo-card">
                 <div class="photo-placeholder has-image" id="photo2">
                     <!-- Coloque o caminho da sua imagem aqui -->
-                    <img src="Sem título 1.jpeg " alt="Ana Laura">
+                    <img src="Sem título 1.jpeg" alt="Ana Laura">
                 </div>
                 <div class="photo-caption">Princesa demais 👑</div>
             </div>
         </div>
 
         <div class="message-box">
-            <h2> 💝</h2>
+            <h2>💝</h2>
             <p>
                 Parabéns princesa! Tudo de bom na sua vida, você é uma mulher incrível, 
                 tenho certeza de que terá muito sucesso em sua vida. 
@@ -718,45 +718,30 @@
     </div>
 
     <!-- Balões -->
-    <div class="balloons" style="left: 5%;">
+    <div class="balloons" style="left: 10%;">
         <span class="balloon">🎈</span>
     </div>
-    <div class="balloons" style="left: 25%; animation-delay: 1s;">
+    <div class="balloons" style="left: 50%; animation-delay: 1.5s;">
         <span class="balloon">🎈</span>
     </div>
-    <div class="balloons" style="left: 45%; animation-delay: 2s;">
-        <span class="balloon">🎈</span>
-    </div>
-    <div class="balloons" style="left: 65%; animation-delay: 0.5s;">
-        <span class="balloon">🎈</span>
-    </div>
-    <div class="balloons" style="left: 85%; animation-delay: 1.5s;">
+    <div class="balloons" style="left: 90%; animation-delay: 0.8s;">
         <span class="balloon">🎈</span>
     </div>
 
     <!-- Tartaruguinhas -->
-    <div class="turtle" style="bottom: 20%; animation-delay: 0s;">
+    <div class="turtle" style="bottom: 25%; animation-delay: 0s;">
         <span>🐢</span>
     </div>
-    <div class="turtle" style="bottom: 40%; animation-delay: 5s; animation-duration: 18s;">
-        <span>🐢</span>
-    </div>
-    <div class="turtle" style="bottom: 60%; animation-delay: 10s; animation-duration: 20s;">
+    <div class="turtle" style="bottom: 55%; animation-delay: 8s; animation-duration: 18s;">
         <span>🐢</span>
     </div>
 
     <!-- Doguinhos -->
-    <div class="dog" style="bottom: 15%; animation-delay: 2s;">
+    <div class="dog" style="bottom: 15%; animation-delay: 3s;">
         <span>🐶</span>
     </div>
-    <div class="dog" style="bottom: 35%; animation-delay: 7s; animation-duration: 14s;">
+    <div class="dog" style="bottom: 65%; animation-delay: 10s; animation-duration: 15s;">
         <span>🐕</span>
-    </div>
-    <div class="dog" style="bottom: 55%; animation-delay: 12s; animation-duration: 16s;">
-        <span>🦮</span>
-    </div>
-    <div class="dog" style="bottom: 75%; animation-delay: 4s; animation-duration: 13s;">
-        <span>🐩</span>
     </div>
 
     <script>
@@ -764,7 +749,7 @@
         function createConfetti() {
             const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f9ca24', '#f0932b', '#eb4d4b', '#6c5ce7', '#a29bfe', '#fd79a8', '#fdcb6e'];
             const shapes = ['circle', 'square', 'triangle'];
-            const confettiCount = window.innerWidth < 768 ? 40 : 60;
+            const confettiCount = window.innerWidth < 768 ? 20 : 35;
             
             for (let i = 0; i < confettiCount; i++) {
                 const confetti = document.createElement('div');
@@ -788,7 +773,7 @@
         // Criar estrelas melhoradas
         function createStars() {
             const starsContainer = document.getElementById('stars');
-            const starCount = window.innerWidth < 768 ? 20 : 30;
+            const starCount = window.innerWidth < 768 ? 10 : 15;
             
             for (let i = 0; i < starCount; i++) {
                 const star = document.createElement('div');
@@ -805,7 +790,7 @@
         // Criar corações flutuantes
         function createHearts() {
             const heartsContainer = document.getElementById('hearts');
-            const heartCount = window.innerWidth < 768 ? 15 : 25;
+            const heartCount = window.innerWidth < 768 ? 8 : 12;
             
             for (let i = 0; i < heartCount; i++) {
                 const heart = document.createElement('div');
